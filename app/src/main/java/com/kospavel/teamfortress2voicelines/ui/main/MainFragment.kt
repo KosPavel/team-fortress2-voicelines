@@ -5,19 +5,19 @@ import android.view.ContextThemeWrapper
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.widget.PopupMenu
-import androidx.core.os.bundleOf
 import androidx.core.widget.addTextChangedListener
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.kospavel.teamfortress2voicelines.App
 import com.kospavel.teamfortress2voicelines.NoSounds
 import com.kospavel.teamfortress2voicelines.R
 import com.kospavel.teamfortress2voicelines.strategies.CharacterStrategyFactory
+import com.kospavel.teamfortress2voicelines.ui.base.BaseFragment
+import com.kospavel.teamfortress2voicelines.ui.base.FragmentType
 import kotlinx.android.synthetic.main.fragment_main.*
 import javax.inject.Inject
 
-class MainFragment : Fragment(R.layout.fragment_main) {
+class MainFragment : BaseFragment(R.layout.fragment_main) {
 
     @Inject
     lateinit var viewModelFactory: ViewModelFactory
@@ -79,30 +79,4 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             }
         }
     }
-
-    companion object {
-        private const val TYPE = "type"
-        private val instances = mutableListOf<MainFragment>()
-
-        fun instance(fragmentType: FragmentType): MainFragment {
-            for (instance in instances) {
-                if (instance.arguments?.get(TYPE) == fragmentType) {
-                    return instance
-                }
-            }
-            val fragment = MainFragment().apply {
-                arguments = bundleOf(
-                    TYPE to fragmentType
-                )
-            }
-            instances.add(fragment)
-            return fragment
-        }
-    }
-
-}
-
-enum class FragmentType {
-    MAIN,
-    FAVOURITES
 }

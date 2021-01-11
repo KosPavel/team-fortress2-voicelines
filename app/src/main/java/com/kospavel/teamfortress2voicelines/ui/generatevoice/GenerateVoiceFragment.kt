@@ -1,7 +1,7 @@
 package com.kospavel.teamfortress2voicelines.ui.generatevoice
 
-import androidx.fragment.app.Fragment
 import com.kospavel.teamfortress2voicelines.R
+import com.kospavel.teamfortress2voicelines.ui.base.BaseFragment
 
-class GenerateVoiceFragment : Fragment(R.layout.fragment_generate_voice) {
+class GenerateVoiceFragment : BaseFragment(R.layout.fragment_generate_voice) {
 }
