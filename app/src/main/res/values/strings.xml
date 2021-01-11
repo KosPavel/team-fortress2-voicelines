@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Team Fortress 2 Voicelines</string>
+    <string name="scout_name">Scout</string>
+    <string name="soldier_name">Soldier</string>
+    <string name="pyro_name">Pyro</string>
+    <string name="demo_name">Demoman</string>
+    <string name="heavy_name">Heavy</string>
+    <string name="engineer_name">Engineer</string>
+    <string name="sniper_name">Sniper</string>
+    <string name="medic_name">Medic</string>
+    <string name="spy_name">Spy</string>
+    <string name="announcer_name">Announcer</string>
+    <string name="pauling_name">Pauling</string>
+    <string name="blutarch_name">Blutarch</string>
+    <string name="redmond_name">Redmond</string>
+    <string name="merasmus_name">Merasmus</string>
+    <string name="bomb_name">Bombinomicon</string>
+    <string name="all_characters">All characters</string>
+    <string name="unexpected_name">Unexpected class</string>
+    <string name="search_hint">Search</string>
+    <string name="favourite">Favourite</string>
+    <string name="favourites">Favourites</string>
+    <string name="all_sounds">All sounds</string>
+    <string name="portrait_description">Character portrait</string>
+    <string name="no_sounds">No sounds available</string>
+    <string name="error">Something went wrong</string>
+    <string name="filter_description">Filter sounds by character</string>
+</resources>

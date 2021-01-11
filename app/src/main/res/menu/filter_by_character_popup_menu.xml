@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_all"
+        android:title="@string/all_characters" />
+    <item
+        android:id="@+id/filter_scout"
+        android:title="@string/scout_name" />
+    <item
+        android:id="@+id/filter_soldier"
+        android:title="@string/soldier_name" />
+    <item
+        android:id="@+id/filter_pyro"
+        android:title="@string/pyro_name" />
+    <item
+        android:id="@+id/filter_demo"
+        android:title="@string/demo_name" />
+    <item
+        android:id="@+id/filter_heavy"
+        android:title="@string/heavy_name" />
+    <item
+        android:id="@+id/filter_engineer"
+        android:title="@string/engineer_name" />
+    <item
+        android:id="@+id/filter_medic"
+        android:title="@string/medic_name" />
+    <item
+        android:id="@+id/filter_sniper"
+        android:title="@string/sniper_name" />
+    <item
+        android:id="@+id/filter_spy"
+        android:title="@string/spy_name" />
+    <item
+        android:id="@+id/filter_announcer"
+        android:title="@string/announcer_name" />
+    <item
+        android:id="@+id/filter_pauling"
+        android:title="@string/pauling_name" />
+</menu>
