@@ -25,4 +25,5 @@
     <string name="no_sounds">No sounds available</string>
     <string name="error">Something went wrong</string>
     <string name="filter_description">Filter sounds by character</string>
+    <string name="generate_voice">Generate</string>
 </resources>

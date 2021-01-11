@@ -3,6 +3,7 @@ package com.kospavel.teamfortress2voicelines
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.kospavel.teamfortress2voicelines.ui.generatevoice.GenerateVoiceFragment
 import com.kospavel.teamfortress2voicelines.ui.main.FragmentType
 import com.kospavel.teamfortress2voicelines.ui.main.MainFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -30,6 +31,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.navigation_favourites -> {
                     openFragment(MainFragment.instance(FragmentType.FAVOURITES))
+                    true
+                }
+                R.id.navigation_generate -> {
+                    openFragment(GenerateVoiceFragment())
                     true
                 }
                 else -> {

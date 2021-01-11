@@ -11,4 +11,9 @@
         android:icon="@drawable/ic_favorite"
         android:title="@string/favourites" />
 
+    <item
+        android:id="@+id/navigation_generate"
+        android:icon="@drawable/ic_create"
+        android:title="@string/generate_voice" />
+
 </menu>
