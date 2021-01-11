@@ -1,4 +1,4 @@
-package com.kospavel.teamfortress2voicelines.ui
+package com.kospavel.teamfortress2voicelines.ui.main
 
 import android.os.Bundle
 import android.view.ContextThemeWrapper

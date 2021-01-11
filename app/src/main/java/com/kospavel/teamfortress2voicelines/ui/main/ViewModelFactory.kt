@@ -1,4 +1,4 @@
-package com.kospavel.teamfortress2voicelines.ui
+package com.kospavel.teamfortress2voicelines.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
